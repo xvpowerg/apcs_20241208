@@ -1,0 +1,6 @@
+values = input()
+print(type(values))
+msgList = values.split()
+print(msgList)
+intList = map(int,msgList)
+print(list(intList))
